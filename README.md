@@ -1,2 +1,2 @@
-# POO202-1JJR
+# POO2022-1JJR
 Repository for files related to POO lessons
