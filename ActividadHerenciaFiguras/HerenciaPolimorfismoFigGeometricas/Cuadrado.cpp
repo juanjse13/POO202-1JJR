@@ -1,7 +1,5 @@
 #include "Cuadrado.h"
 
-using std::endl;
-
 Cuadrado::Cuadrado(){
     this->lado = 0.0;
 }

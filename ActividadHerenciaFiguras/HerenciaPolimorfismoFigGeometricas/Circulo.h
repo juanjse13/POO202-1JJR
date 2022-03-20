@@ -8,6 +8,8 @@
 using std::string;
 using std::cout;
 using std::cin;
+using std::endl;
+
 
 //Se crea la clase hija Circulo
 class Circulo : public FiguraGeometrica{

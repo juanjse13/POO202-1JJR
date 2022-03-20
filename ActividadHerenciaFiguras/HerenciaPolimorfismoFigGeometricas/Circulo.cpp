@@ -1,7 +1,6 @@
 #include "Circulo.h"
 #include <math.h>
 
-using std::endl;
 
 Circulo::Circulo(){
     this->radio = 0.0;

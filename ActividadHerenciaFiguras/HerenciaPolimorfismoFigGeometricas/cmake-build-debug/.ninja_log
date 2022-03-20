@@ -1,0 +1,10 @@
+# ninja log v5
+41	2394	6695206804241993	CMakeFiles/HerenciaPolimorfismoFigGeometricas.dir/Cuadrado.cpp.obj	f08d00a6c6203057
+37	2398	6695206804251930	CMakeFiles/HerenciaPolimorfismoFigGeometricas.dir/FiguraGeometrica.cpp.obj	7372e178a2a6f2e5
+46	2399	6695206804251930	CMakeFiles/HerenciaPolimorfismoFigGeometricas.dir/Rectangulo.cpp.obj	57c9824d09933dd0
+31	2400	6695206804261910	CMakeFiles/HerenciaPolimorfismoFigGeometricas.dir/Circulo.cpp.obj	b84d6097d056d221
+52	2415	6695206804521211	CMakeFiles/HerenciaPolimorfismoFigGeometricas.dir/DirectorioFG.cpp.obj	f949503e06619bb2
+0	2417	6695206804541162	CMakeFiles/HerenciaPolimorfismoFigGeometricas.dir/main.cpp.obj	8d562461288b393a
+2418	2792	6695206808211390	HerenciaPolimorfismoFigGeometricas.exe	b6d2c2df2d220fa8
+2	413	6695208967225428	CMakeFiles/HerenciaPolimorfismoFigGeometricas.dir/Rectangulo.cpp.obj	57c9824d09933dd0
+414	637	6695208969388745	HerenciaPolimorfismoFigGeometricas.exe	b6d2c2df2d220fa8

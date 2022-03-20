@@ -10,34 +10,34 @@ void DirectorioFG::llenarDatosFiguraGeometrica(){
     cin >> ans;
     switch (ans)
     {
-    case 1:
-    {
-        cout<<"Cual es el lado de cuadrado ? ";
-        cin >> lado;
-        Cuadrado* cuadrado = new Cuadrado(lado);
-        agregarFigura(cuadrado);
-        break;
-    }
-    case 2:
-    {
-        cout << "Cual es el radio del circulo ? ";
-        cin >> radio;
-        Circulo* circulo = new Circulo(radio);
-        agregarFigura(circulo);
-        break;
-    }
-    case 3:
-    {
-        cout << "Cual es la base del rectangulo ? ";
-        cin >> base;
-        cout << "Cual es la altura del rectangulo ? ";
-        cin >> altura;
-        Rectangulo* rectangulo = new Rectangulo(altura,base);
-        agregarFigura(rectangulo);
-        break;
-    }
-    default:
-        break;
+        case 1:
+        {
+            cout<<"Cual es el lado de cuadrado ? ";
+            cin >> lado;
+            Cuadrado* cuadrado = new Cuadrado(lado);
+            agregarFigura(cuadrado);
+            break;
+        }
+        case 2:
+        {
+            cout << "Cual es el radio del circulo ? ";
+            cin >> radio;
+            Circulo* circulo = new Circulo(radio);
+            agregarFigura(circulo);
+            break;
+        }
+        case 3:
+        {
+            cout << "Cual es la base del rectangulo ? ";
+            cin >> base;
+            cout << "Cual es la altura del rectangulo ? ";
+            cin >> altura;
+            Rectangulo* rectangulo = new Rectangulo(altura,base);
+            agregarFigura(rectangulo);
+            break;
+        }
+        default:
+            break;
     }
     cout << endl;
 }
