@@ -7,6 +7,7 @@
 using std::string;
 using std::cout;
 using std::cin;
+using std::endl;
 
 //Se crea la clase hija Rectangulo
 class Rectangulo : public FiguraGeometrica{
