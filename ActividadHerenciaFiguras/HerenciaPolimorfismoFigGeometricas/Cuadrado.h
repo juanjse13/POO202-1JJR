@@ -9,7 +9,7 @@ using std::cout;
 using std::cin;
 
 //Se crea la clase hija Cuadrado
-class Cuadrado::public FiguraGeometrica() {
+class Cuadrado : public FiguraGeometrica{
     //Se definen los atributos privados de la clase
     private:
         float lado;
@@ -21,11 +21,8 @@ class Cuadrado::public FiguraGeometrica() {
         //Se definen las funciones
         void calcularArea();
         void calcularPerimetro();
-        float mostrarArea();
-        float mostrarPerimetro();
         void dibujarFigura();
 
 };
-
 
 #endif

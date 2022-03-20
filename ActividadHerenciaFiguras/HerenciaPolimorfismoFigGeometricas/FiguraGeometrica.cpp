@@ -5,26 +5,20 @@ FiguraGeometrica::FiguraGeometrica(){
     area = 0.0;
 }
 
-float getArea(){
-    return this -> area;
+float FiguraGeometrica::getArea(){
+    return this->area;
 }
-float getPerimetro(){
-    return this -> perimetro;
-}
-
-
-float FiguraGeometrica::calcularArea(){
+float FiguraGeometrica::getPerimetro(){
+    return this->perimetro;
 }
 
-float FiguraGeometrica::calcularPerimetro(){
+void FiguraGeometrica::calcularArea(){
+    cout << "Calculando Area...";
 }
 
-void FiguraGeometrica::mostrarArea(){
-}
-
-void FiguraGeometrica::mostrarPerimetro(){
+void FiguraGeometrica::calcularPerimetro(){
+    cout << "Calculando perimetro...";
 }
 
 void FiguraGeometrica::dibujarFigura(){
 }
-

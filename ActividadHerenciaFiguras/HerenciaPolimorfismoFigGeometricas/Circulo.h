@@ -10,11 +10,10 @@ using std::cout;
 using std::cin;
 
 //Se crea la clase hija Circulo
-class Circulo::public FiguraGeometrica()  {
+class Circulo : public FiguraGeometrica{
     //Se definen los atributos privados de la clase
     private:
-        float radio
-
+        float radio;
     public:
         //Se definen los constructores
         Circulo();
@@ -22,11 +21,8 @@ class Circulo::public FiguraGeometrica()  {
         //Se definen las funciones que van a permitir la sobreescritura y el poliformismo
         void calcularArea();
         void calcularPerimetro();
-        float mostrarArea();
-        float mostrarPerimetro();
         void dibujarFigura();
 
 };
-
 
 #endif

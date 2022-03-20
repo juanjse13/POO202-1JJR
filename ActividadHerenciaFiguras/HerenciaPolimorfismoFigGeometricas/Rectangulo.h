@@ -9,7 +9,7 @@ using std::cout;
 using std::cin;
 
 //Se crea la clase hija Rectangulo
-class Rectangulo::public FiguraGeometrica() {
+class Rectangulo : public FiguraGeometrica{
     //Se definen los atributos privados de la clase
     private:
         float altura;
@@ -22,8 +22,6 @@ class Rectangulo::public FiguraGeometrica() {
         //Se definen las funciones
         void calcularArea();
         void calcularPerimetro();
-        float mostrarArea();
-        float mostrarPerimetro();
         void dibujarFigura();
 
 };
