@@ -46,7 +46,7 @@ void menu(DirectorioFG directorioFigurasGeometricas){
                 break;
             }
             default:
-                cout << "Opcion seleccionada no valida";
+                cout << "Opcion seleccionada no valida\n";
                 break;
         }
 

@@ -20,12 +20,16 @@ class DirectorioFG{
         vector <FiguraGeometrica*> figurasGeometricas;
 
     public:
+        //Se define el constructor
+        DirectorioFG();
         void agregarFigura(FiguraGeometrica*);
         void mostrarAreas();
         void mostrarPerimetros();
         void calcularSumasAreas();
         void llenarDatosFiguraGeometrica();
         void dibujarFiguras();
+        //Se define el destructor
+        ~DirectorioFG();
 };
 
 

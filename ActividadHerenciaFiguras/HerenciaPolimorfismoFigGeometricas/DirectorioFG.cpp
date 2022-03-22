@@ -2,6 +2,10 @@
 
 using std::endl;
 
+DirectorioFG::DirectorioFG() {
+
+}
+
 void DirectorioFG::llenarDatosFiguraGeometrica(){
     int ans,lado,radio,base,altura;
     cout << "1. Cuadrado"<<endl;
@@ -82,6 +86,13 @@ void DirectorioFG::dibujarFiguras(){
         figurasGeometricas[i]->dibujarFigura();
     }
     cout << endl;
+}
+DirectorioFG::~DirectorioFG(){
+    for (int i = 0; i < figurasGeometricas.size() ; ++i) {
+        FiguraGeometrica * tempFigura = figurasGeometricas[i]; //Variable que guarda la direccion de memoria, para luego ir a esta direccion y borrarla
+        delete tempFigura;
+        cout << "Se llama al destructor\n";
+    }
 }
 
 
