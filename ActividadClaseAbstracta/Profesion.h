@@ -10,7 +10,7 @@ class Profesion {
     public:
         virtual void mostrarTrabajo() = 0;
 
-};cd 
+};
 
 
 #endif
