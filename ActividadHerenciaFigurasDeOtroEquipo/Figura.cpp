@@ -33,13 +33,10 @@ void Figura:: mostrarPerimetro(){
     cout<<endl;
 }
 
-void Figura:: representacion(){
-
-}
-
 float Figura:: getArea(){
     return area;
 }
 float Figura:: getPerimetro(){
     return perimetro;
 }
+

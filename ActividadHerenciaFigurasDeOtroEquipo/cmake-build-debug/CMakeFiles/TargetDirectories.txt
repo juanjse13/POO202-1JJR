@@ -1,0 +1,3 @@
+C:/Users/jjres/Desktop/Octavo semestre/Programación orientada a objetos/POO202-1JJR/ActividadHerenciaFigurasDeOtroEquipo/cmake-build-debug/CMakeFiles/ejercicioHerencia.dir
+C:/Users/jjres/Desktop/Octavo semestre/Programación orientada a objetos/POO202-1JJR/ActividadHerenciaFigurasDeOtroEquipo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jjres/Desktop/Octavo semestre/Programación orientada a objetos/POO202-1JJR/ActividadHerenciaFigurasDeOtroEquipo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

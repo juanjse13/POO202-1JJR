@@ -11,6 +11,7 @@ using std:: vector;
 #include "Cuadrado.h"
 #include "Rectangulo.h"
 #include "Circulo.h"
+#include "TrianguloRectangulo.h"
 
 
 class View {
