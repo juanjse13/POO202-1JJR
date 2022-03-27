@@ -5,7 +5,6 @@
 
 class Cuadrado : public Cuadrilatero {
 
-    private:
     public:
         Cuadrado();
         Cuadrado(float area, float perimetro, float lado);

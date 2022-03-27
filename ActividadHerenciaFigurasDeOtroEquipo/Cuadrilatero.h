@@ -16,7 +16,6 @@ class Cuadrilatero : public Figura {
         float calcularArea() override;
         void mostrarArea() override;
         void mostrarPerimetro() override;
-        void representacion() override;
 
 };
 

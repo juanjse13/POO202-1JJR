@@ -5,7 +5,6 @@
 
 class Rectangulo : public Cuadrilatero {
 
-    private:
     public:
         Rectangulo();
         Rectangulo(float area, float perimetro, float alto, float ancho);

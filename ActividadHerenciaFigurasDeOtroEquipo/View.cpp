@@ -78,7 +78,7 @@ void View::agregarFigura(vector<Figura *> figuras){
     cout<<"2 - Rectangulo"<<endl;
     cout<<"3 - Cuadrado"<<endl;
     cout<<"4 - Triangulo rectangulo"<<endl;
-    cout<<"Seleccione la figura que desea aniadir:"<<endl;
+    cout<<"Seleccione la figura que desea anadir:"<<endl;
 
     cin>>opc;
 
@@ -149,18 +149,16 @@ void View::agregarFigura(vector<Figura *> figuras){
             break;
         }
         case 4: {
-            float cateto1, cateto2, hipotenusa;
+            float cateto1, cateto2;
             TrianguloRectangulo *obj;
             cout << "Ingrese el primer cateto del triangulo: ";
             cin >> cateto1;
             cout << "Ingrese el segundo cateto del triangulo: ";
             cin >> cateto2;
-            cout << "Ingrese la hipotenusa del triangulo: ";
-            cin >> hipotenusa;
-            obj = new TrianguloRectangulo(cateto1, cateto2, hipotenusa);
+            obj = new TrianguloRectangulo(0, 0, cateto1, cateto2);
             float area = obj->calcularArea();
             float perimetro = obj->calcularPerimetro();
-
+            obj = new TrianguloRectangulo(area, perimetro, cateto1, cateto2);
             figuras.push_back(obj);
             contador++;
             cout << "Has creado la figura" << endl;
@@ -186,6 +184,7 @@ void View:: dibujarFiguras(){
     Rectangulo obj1 = Rectangulo();
     Cuadrado obj2 = Cuadrado();
     Circulo obj3 = Circulo();
+    TrianguloRectangulo obj4 = TrianguloRectangulo();
 
     cout<<"FIGURAS DISPONIBLES\n";
     cout<<"-------------------\n";
@@ -199,6 +198,9 @@ void View:: dibujarFiguras(){
 
     cout<<"Cicrulo"<<endl;
     obj3.representacion();
+
+    cout<<"Triangulo Rectangulo"<<endl;
+    obj4.representacion();
 
 }
 void View:: mostrarAreas(vector <Figura *> figuras){

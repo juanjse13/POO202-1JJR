@@ -26,9 +26,6 @@ void Cuadrilatero:: mostrarPerimetro(){
     Figura::mostrarPerimetro();
 }
 
-void Cuadrilatero::representacion(){
-}
-
 float Cuadrilatero:: getArea(){
     Figura::getArea();
     return area;

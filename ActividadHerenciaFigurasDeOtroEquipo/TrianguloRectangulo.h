@@ -1,7 +1,13 @@
 #ifndef TRIANGULORECTANGULO_H
 #define TRIANGULORECTANGULO_H
 
+#include <iostream>
+#include <math.h>
 #include "Figura.h"
+
+using std::cout;
+using std::cin;
+using std::string;
 
 class TrianguloRectangulo: public Figura {
     private:
@@ -11,7 +17,7 @@ class TrianguloRectangulo: public Figura {
 
     public:
         //Se definen los constructores
-        TrianguloRectangulo(float, float, float);
+        TrianguloRectangulo(float, float, float, float);
         TrianguloRectangulo();
         //Se definen las otras funciones
         float getArea() override;

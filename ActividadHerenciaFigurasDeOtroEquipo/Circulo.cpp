@@ -19,14 +19,14 @@ Circulo:: Circulo(float area, float perimetro, float radio) : Figura(area, perim
 
 float Circulo::calcularArea() {
     float area;
-    area = 2 * PI * pow(radio, 2);
+    area = 2 * PI * pow(this -> radio, 2);
     return area;
 }
 
 float Circulo:: calcularPerimetro(){
     float perimetro;
     cin>>radio;
-    perimetro = 2 * PI * radio;
+    perimetro = 2 * PI * this -> radio;
     return perimetro;
 }
 

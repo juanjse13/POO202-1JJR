@@ -16,7 +16,6 @@ Rectangulo::Rectangulo(float area, float perimetro, float alto, float ancho) : C
 }
 
 float Rectangulo:: calcularArea(){
-    float area = this->lado1 * this->lado2;
     Cuadrilatero::calcularArea();
 }
 
@@ -47,7 +46,6 @@ void Rectangulo:: representacion(){
     }
     cout<<endl;
 
-    Cuadrilatero::representacion();
 
 }
 
