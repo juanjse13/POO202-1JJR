@@ -20,6 +20,7 @@ int View::menu(){
     cout << "3. Mostrar el area de las figuras" <<endl;
     cout << "4. Mostrar el perimetro de las figuras" <<endl;
     cout << "5. Calcular la suma de las areas de las figuras"<<endl;
+    cout << "6. Dibujar figuras con colores"<<endl;
     cout << "0. Salir\n"
          <<endl;
     cout << "Ingrese la opcion que desea realizar: ";
@@ -58,6 +59,10 @@ void View:: ejecutar(){
 
             case 5:
                 sumaAreas(figuras);
+                break;
+
+            case 6:
+                dibujarFigurasColores();
                 break;
 
             default:
@@ -236,5 +241,48 @@ void View:: sumaAreas(vector <Figura *> figuras){
         total += figuras[i]->getArea();
     }
     cout<<"El area acumulada por las figuras es de: "<<total<<"m2"<<endl;
+
+}
+
+void View::dibujarFigurasColores(){
+
+    int opcion;
+    cout << "Que quieres graficar? 1. Cuadrado 2. Circulo 3. Rectangulo 4. Triangulo rectangulo" <<endl;
+    cin >> opcion;
+    Rectangulo obj1 = Rectangulo();
+    Cuadrado obj2 = Cuadrado();
+    Circulo obj3 = Circulo();
+    TrianguloRectangulo obj4 = TrianguloRectangulo();
+    switch (opcion) {
+
+
+
+        case 1:
+            int lado1;
+            cout << "Escriba el lado 1" << endl;
+            cin >> lado1;
+            obj2.dibujarFiguraConColor(lado1); // Cuadrado
+            break;
+
+        case 2:
+            float radio;
+            cout << "Escriba el radio" << endl;
+            cin >> radio;
+            obj3.dibujarFiguraConColor(radio); // Circulo
+            break;
+
+        case 3:
+            float number1, number2;
+            cout << "Escriba el lado 1" << endl;
+            cin >> number1;
+            cout << "Escriba el lado 1" << endl;
+            cin >> number2;
+            obj1.dibujarFiguraConColor(number1, number2); // rectangulo
+            break;
+
+        case 4:
+            obj4.dibujarFiguraConColor(); // Cuadrado
+            break;
+    }
 
 }

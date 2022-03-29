@@ -28,6 +28,7 @@ class View {
         void mostrarAreas(vector<Figura *> figuras);
         void mostrarPerimetros(vector<Figura *> figuras);
         void sumaAreas(vector<Figura *> figuras);
+        void dibujarFigurasColores();
 
 
 

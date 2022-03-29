@@ -40,26 +40,26 @@ float Figura:: getPerimetro(){ // Si su funcionalidad es la misma que calcularPe
     return perimetro;
 }
 
-void Figura::dibujarFiguraConColor(int number1 /*number1 = 7*/, int number2/*number 2 = 4*/){
+void Figura::dibujarFiguraConColor(int number1 /*number1 = 7*/){
     HANDLE outputColor = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleTextAttribute(outputColor,1); // Para Cuadrado
+    // Definimos ciclos anidados para filas y columnas del cuadrado
     for(int i = 0; i < number1; i++){
-        cout<<"*  ";
+        for(int j = 0; j < number1; j++){
+            if(i == 0 || j == 0 || i == number1 - 1 || j == number1 - 1){ // Extremos del cuadrado
+                cout << "o";
+            }
+            else{
+                cout << " ";
+            }
+        }
+        cout << endl;
     }
-    cout<<endl;
-    for(int i = 0; i <= number2; i++){
-        cout<<"*";
-        cout<<"                 ";
-        cout<<"*";
-        cout<<endl;
-    }
-    for(int i = 0; i < number1; i++){
-        cout<<"*  ";
-    }
-    cout<<endl;
     SetConsoleTextAttribute(outputColor,0); // pone la letra en el color por defecto
-
 }
+
+
+
 
 void Figura::dibujarFiguraConColor(float radio/*radio = 8*/){
     HANDLE outputColor = GetStdHandle(STD_OUTPUT_HANDLE);

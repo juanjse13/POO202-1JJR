@@ -23,7 +23,7 @@ class Figura {
         virtual void mostrarArea();
         virtual void mostrarPerimetro();
         virtual void representacion() = 0; //Se define como virtualmente pura
-        void dibujarFiguraConColor(int number1, int number2); // Cuadrado 
+        void dibujarFiguraConColor(int number1); // Cuadrado
         void dibujarFiguraConColor(float radio); // Circulo
         void dibujarFiguraConColor(float number1,float number2); // Rectangulo
         void dibujarFiguraConColor(); //Triangulo Rectangulo
