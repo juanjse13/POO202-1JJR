@@ -29,5 +29,4 @@ class TrianguloRectangulo: public Figura {
         void representacion() override;
 };
 
-
 #endif

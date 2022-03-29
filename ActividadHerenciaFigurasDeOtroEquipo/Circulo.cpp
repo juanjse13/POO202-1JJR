@@ -19,13 +19,13 @@ Circulo:: Circulo(float area, float perimetro, float radio) : Figura(area, perim
 
 float Circulo::calcularArea() {
     float area;
-    area = 2 * PI * pow(this -> radio, 2);
+    area = 2 * PI * pow(this -> radio, 2); // El área de un ciculo se calcula como PI*Pow(radio,2), aquí se esta realizando un mal calculo
     return area;
 }
 
 float Circulo:: calcularPerimetro(){
     float perimetro;
-    cin>>radio;
+    cin>>radio; // este input es redundante, pues ya se hace el calculo con el puntero this, mención al atributo radio, sin embargo, este es el radio de la clase. 
     perimetro = 2 * PI * this -> radio;
     return perimetro;
 }

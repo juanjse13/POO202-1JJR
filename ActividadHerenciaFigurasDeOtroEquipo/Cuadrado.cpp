@@ -17,17 +17,17 @@ Cuadrado:: Cuadrado(float area, float perimetro, float lado) : Cuadrilatero(){
 
 
 float Cuadrado:: calcularArea(){
-    area = lado1 * lado2;
+    area = lado1 * lado2;  
     return area;
 
 }
 
 float Cuadrado:: calcularPerimetro(){
-    Cuadrilatero::calcularPerimetro();
-    return perimetro;
+    Cuadrilatero::calcularPerimetro(); // no
+    return perimetro; // Es redundante este retorno, ya se hace en cuadrilatero::calcularPerimetro()
 }
 void Cuadrado:: mostrarArea(){
-    Cuadrilatero::mostrarArea();
+    Cuadrilatero::mostrarArea(); 
 }
 void Cuadrado:: mostrarPerimetro(){
     Cuadrilatero::mostrarPerimetro();
@@ -57,4 +57,3 @@ float Cuadrado:: getArea(){
 float Cuadrado:: getPerimetro(){
     return perimetro;
 }
-

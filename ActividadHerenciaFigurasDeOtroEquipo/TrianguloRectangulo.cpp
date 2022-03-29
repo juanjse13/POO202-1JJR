@@ -1,4 +1,3 @@
-
 #include "TrianguloRectangulo.h"
 
 TrianguloRectangulo::TrianguloRectangulo(float area, float perimetro, float cateto1, float cateto2): Figura(area, perimetro){
