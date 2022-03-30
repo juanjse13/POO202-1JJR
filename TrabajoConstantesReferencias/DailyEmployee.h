@@ -1,0 +1,14 @@
+//
+// Created by jjres on 29/03/2022.
+//
+
+#ifndef TRABAJOREFERENCIAS_DAILYEMPLOYEE_H
+#define TRABAJOREFERENCIAS_DAILYEMPLOYEE_H
+
+
+class DailyEmployee {
+
+};
+
+
+#endif //TRABAJOREFERENCIAS_DAILYEMPLOYEE_H

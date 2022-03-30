@@ -1,0 +1,15 @@
+# ninja log v5
+0	397	6703090227168873	CMakeFiles/TrabajoConstantesReferencias.dir/main.cpp.obj	99b1ffb489b9bc0
+447	722	6703090230359692	TrabajoConstantesReferencias.exe	407c20b1293a8a3
+38	443	6703091775812577	CMakeFiles/TrabajoConstantesReferencias.dir/DailyEmployee.cpp.obj	36aa58f64db1a365
+23	805	6703091779948071	CMakeFiles/TrabajoConstantesReferencias.dir/Employee.cpp.obj	d10201d9c7f14729
+32	817	6703091780088328	CMakeFiles/TrabajoConstantesReferencias.dir/BasePlusCommissionEmployee.cpp.obj	de82203f7a91aab1
+42	841	6703091780346326	CMakeFiles/TrabajoConstantesReferencias.dir/HourlyEmployee.cpp.obj	441ae80b9b698b73
+27	843	6703091780366281	CMakeFiles/TrabajoConstantesReferencias.dir/CommissionEmployee.cpp.obj	f03413756335e61a
+30	715	6703093729976561	CMakeFiles/TrabajoConstantesReferencias.dir/BasePlusCommissionEmployee.cpp.obj	de82203f7a91aab1
+26	732	6703093730104869	CMakeFiles/TrabajoConstantesReferencias.dir/CommissionEmployee.cpp.obj	f03413756335e61a
+35	739	6703093730241408	CMakeFiles/TrabajoConstantesReferencias.dir/HourlyEmployee.cpp.obj	441ae80b9b698b73
+18	763	6703093730476103	CMakeFiles/TrabajoConstantesReferencias.dir/Employee.cpp.obj	d10201d9c7f14729
+20	540	6703094375875246	CMakeFiles/TrabajoConstantesReferencias.dir/SalariedEmployee.cpp.obj	42150d9524ed2735
+2	625	6703094649829594	CMakeFiles/TrabajoConstantesReferencias.dir/main.cpp.obj	99b1ffb489b9bc0
+627	937	6703094652861673	TrabajoConstantesReferencias.exe	96c39786ec04b9e4
